@@ -6,7 +6,7 @@
    
 - name: start nginx
   systemd:
-    name: nginx
+    name: "{{ pkg }}"
     state: started
   
 
